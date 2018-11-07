@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>JS回家作業4題</title>
+    <title>JS回家作業5題</title>
 </head>
 
 <body>
@@ -24,10 +24,17 @@
         // var ans3 =Math.pow(((23+Math.pow(5,7))/45),2);
         // console.log("第3題:"+ans3);
 
-        //第4題
-        var six = prompt("請輸入六邊形的邊長: (計算面積)");
-        var ans4 = 3 * Math.sqrt(3) / 2 * Math.pow(six, 2);
-        alert(ans4);
+        // //第4題
+        // var six = prompt("請輸入六邊形的邊長: (計算面積)");
+        // var ans4 = 3 * Math.sqrt(3) / 2 * Math.pow(six, 2);
+        // alert(ans4);
+
+        //第5題
+        var inp = prompt("請輸入今天是星期幾，?天後是星期:");
+        var inpB = prompt("?天後:");
+        var ans5 = (parseInt(inp) + parseInt(inpB)) % 7;
+        alert(ans5);
+
 
     </script>
 </body>
