@@ -10,12 +10,12 @@
 
 <body>
     <script>
-        var a = 1;
-        var b = 0;
-        var c = 0;
-        for (var a = 1; a < 9; a++) {//a是個位
-            for (var b = 0; b < 9; b++) {//b是個位
-                for (var c = 0; c < 9; c++) {//c是個位
+        // var a = 1;
+        // var b = 0;
+        // var c = 0;
+        for (var a = 1; a <= 9; a++) {//a是個位
+            for (var b = 0; b <= 9; b++) {//b是個位
+                for (var c = 0; c <= 9; c++) {//c是個位
                     if ((Math.pow(a, 3) + Math.pow(b, 3) + Math.pow(c, 3)) == (a * 100 + b * 10 + c)) {
                         console.log(a * 100 + b * 10 + c);
                     }
