@@ -10,17 +10,25 @@
 
 <body>
     <script>
-        //數字一定要加parseInt
-        //雖然有時候可以，但是方便不同工程師觀看
-        var a = parseInt(prompt("請輸入數字1~10:"));
-        if (a > 5) {
-            console.log("太重");
-        } else if (a == 5) {
-            console.log("剛剛好");
-        } else {
-            console.log("太輕了");
-        }
+        // //數字一定要加parseInt
+        // //雖然有時候可以，但是方便不同工程師觀看
+        // var a = parseInt(prompt("請輸入數字1~10:"));
+        // if (a > 5) {
+        //     console.log("太重");
+        // } else if (a == 5) {
+        //     console.log("剛剛好");
+        // } else {
+        //     console.log("太輕了");
+        // }
 
+        var score = parseInt(prompt("請輸入您的成績:"));
+        if (score > 60) {
+            alert("及格了");
+            alert("真棒");
+        } else {
+            alert("不及格");
+        }
+        alert("不管怎樣，再努力吧！");
 
 
     </script>
