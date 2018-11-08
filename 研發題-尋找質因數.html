@@ -10,16 +10,19 @@
 
 <body>
     <script>
-        var c = 0;
-        var a = parseInt(prompt("請輸入一個數字"));
-        for (var b = 1; b <= a; b++) {
-            if(a%b!=0){
-                c = c + 1;
-                if(c==2){
-                    console.log(b);
-                }
+
+        var n = parseInt(prompt("請輸入一個數字"));
+
+        for (var i = 2; i <= n; i++) {
+            var count = 0;
+            while (n % i == 0) {
+                n = n / i;
+                count++;
+            } if (count > 0) {
+                console.log(i, count);
             }
         }
+
 
 
     </script>
