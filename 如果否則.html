@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>如果否則</title>
+    <title>成績分數</title>
 </head>
 
 <body>
     <script>
-        var a = prompt("請輸入數字1~10:");
+        //數字一定要加parseInt
+        //雖然有時候可以，但是方便不同工程師觀看
+        var a = parseInt(prompt("請輸入數字1~10:"));
         if (a > 5) {
             console.log("太重");
         } else if (a == 5) {
