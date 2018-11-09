@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>函數作業第一題</title>
+</head>
+
+<body>
+    <script>
+
+        console.log(inshu(21));
+        //找出因數的和
+        function inshu(num) {
+            var sum = 0;
+            for (var i = 1; i < num; i++) {
+                if (num % i == 0) {
+                    sum = sum + i;
+                }
+            }
+            return sum;
+        }
+    </script>
+</body>
+
+</html>
